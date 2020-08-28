@@ -1,0 +1,22 @@
+{
+    "name": "agungsugiarto/codeigniter4-whoops",
+    "description": "Whoops PHP Errors For CodeIgniter4",
+    "keywords": ["codegniter4", "debug", "whoops"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "agungsugiarto",
+            "email": "me.agungsugiarto@tgmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "codeigniter4/framework": "^4.0",
+        "filp/whoops" : "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fluent\\Whoops\\": "src/"
+        }
+    }
+}
